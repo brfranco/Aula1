@@ -1,0 +1,45 @@
+# Exemplo de tupla com 5 dados
+minha_tupla = (10, "Python", 3.14, True, [1, 2, 3])
+
+print(minha_tupla)
+
+# Convertendo a tupla para uma lista
+minha_lista = list(minha_tupla)
+
+print("Tupla:", minha_tupla)
+print("Lista:", minha_lista)
+
+# Adicionando dois novos dados à lista
+minha_lista.append("Novo Dado 1")
+minha_lista.append("Novo Dado 2")
+
+print("Lista atualizada:", minha_lista)
+
+# Removendo o primeiro dado da lista
+minha_lista.pop(0)  # Ou poderia usar: del minha_lista[0]
+
+print("Lista após remover o primeiro dado:", minha_lista)
+
+# Removendo o último dado da lista
+minha_lista.pop()  # Remove o último item da lista
+
+print("Lista após remover o último dado:", minha_lista)
+
+# Imprimindo o primeiro dado da lista
+print("Primeiro dado da lista:", minha_lista[0])
+
+# Imprimindo a quantidade de dados na lista
+print("Quantidade de dados na lista:", len(minha_lista))
+
+# Criando o dicionário com os dados
+meu_dicionario = {
+    "Nome": "João",
+    "Idade": 30,
+    "Profissão": "Desenvolvedor"
+}
+
+# Imprimindo o dicionário
+print(meu_dicionario)
+
+# Imprimindo o valor da chave "Nome"
+print(meu_dicionario["Nome"])
